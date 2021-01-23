@@ -1,0 +1,48 @@
+/**Color Scheme**/
+/**Typography**/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6e9e41;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 22rem;
+  margin: 0 auto;
+  background-color: #e0dfdf;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.contenedor__input {
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.contenedor__btn {
+  padding: 0.5rem 0;
+  background-color: #6e9e41;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

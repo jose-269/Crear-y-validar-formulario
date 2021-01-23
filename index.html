@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Validar formulario</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jose Martínez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!--My style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1 class="title">Formulario de Registro</h1>
+    <form onsubmit="return registered()">
+        <div class="contenedor">
+            <input id="name" class="contenedor__input" type="text" placeholder="Nombre">
+            <input id="last-name" class="contenedor__input" type="text" placeholder="Apellidos">
+            <input id="email" class="contenedor__input" type="email" placeholder="Correo">
+            <input id="user" class="contenedor__input" type="text" placeholder="Usuario">
+            <input id="password" class="contenedor__input" type="text" placeholder="Contraseña">
+            <input id="cel" class="contenedor__input" type="tel" placeholder="Teléfono (911111111)">
+            <button id="btn-register" class="contenedor__btn">Registrar</button>
+        </div>
+    </form>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
